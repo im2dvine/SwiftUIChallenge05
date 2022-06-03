@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct movieImageView: View {
+struct MovieImageView: View {
     var body: some View {
         VStack {
             Image("overlay-1")
@@ -13,7 +13,7 @@ struct movieImageView: View {
 
 struct movieImageView_Previews: PreviewProvider {
     static var previews: some View {
-        movieImageView()
+        MovieImageView()
             
     }
 }

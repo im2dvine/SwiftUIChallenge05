@@ -1,21 +1,20 @@
 import SwiftUI
 
-struct childTicketView: View {
+struct AdultTicketView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("child".uppercased())
+                Text("adult".uppercased())
                     .custom(font: .regular, size: 18)
                 
                 Spacer()
                 
-                Text("$7.25")
+                Text("$18.65")
                     .custom(font: .bold, size: 18)
                 
                 Spacer()
                 
-                addTicketButtonView()
-                    .padding(.trailing, 10)
+                QuantitySelectorView()
             }
             .padding(.horizontal, 20)
         }
@@ -23,8 +22,8 @@ struct childTicketView: View {
     }
 }
 
-struct childTicketView_Previews: PreviewProvider {
+struct adultTicketView_Previews: PreviewProvider {
     static var previews: some View {
-        childTicketView()
+        AdultTicketView()
     }
 }

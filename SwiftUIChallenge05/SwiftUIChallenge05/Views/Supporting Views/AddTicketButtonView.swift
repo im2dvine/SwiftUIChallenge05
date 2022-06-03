@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct addTicketButtonView: View {
+struct AddTicketButtonView: View {
     var body: some View {
         HStack(spacing: 0) {
             Text("add".uppercased())
@@ -19,6 +19,6 @@ struct addTicketButtonView: View {
 
 struct addTicketButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        addTicketButtonView()
+        AddTicketButtonView()
     }
 }
