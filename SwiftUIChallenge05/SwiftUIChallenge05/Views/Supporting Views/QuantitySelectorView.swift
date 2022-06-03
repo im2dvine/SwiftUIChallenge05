@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct quantitySelectorView: View {
+struct QuantitySelectorView: View {
     var body: some View {
         VStack {
             HStack {
@@ -31,6 +31,6 @@ struct quantitySelectorView: View {
 
 struct quantitySelectorView_Previews: PreviewProvider {
     static var previews: some View {
-        quantitySelectorView()
+        QuantitySelectorView()
     }
 }

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct seniorTicketView: View {
+struct SeniorTicketView: View {
     var body: some View {
         VStack {
             HStack {
@@ -15,7 +15,7 @@ struct seniorTicketView: View {
                 
                 Spacer()
                 
-                addTicketButtonView()
+                AddTicketButtonView()
                     .padding(.trailing, 10)
             }
             .padding(.horizontal, 20)
@@ -26,6 +26,6 @@ struct seniorTicketView: View {
 
 struct seniorTicketView_Previews: PreviewProvider {
     static var previews: some View {
-        seniorTicketView()
+        SeniorTicketView()
     }
 }

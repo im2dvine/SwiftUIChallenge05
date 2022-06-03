@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct movieSubtotalView: View {
+struct MovieSubtotalView: View {
     var body: some View {
         VStack(spacing: 2) {
             HStack {
@@ -53,6 +53,6 @@ struct movieSubtotalView: View {
 
 struct subtotalView_Previews: PreviewProvider {
     static var previews: some View {
-        movieSubtotalView()
+        MovieSubtotalView()
     }
 }

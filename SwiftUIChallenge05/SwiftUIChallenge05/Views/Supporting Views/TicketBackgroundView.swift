@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ticketBackgroundView: View {
+struct TicketBackgroundView: View {
     var body: some View {
         VStack(spacing: 0) {
             Rectangle()
@@ -20,6 +20,6 @@ struct ticketBackgroundView: View {
 
 struct ticketChooserBackgroundView_Previews: PreviewProvider {
     static var previews: some View {
-        ticketBackgroundView()
+        TicketBackgroundView()
     }
 }

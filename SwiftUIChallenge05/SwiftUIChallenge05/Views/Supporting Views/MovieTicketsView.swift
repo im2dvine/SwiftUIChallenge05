@@ -1,16 +1,16 @@
 import SwiftUI
 
-struct movieTicketsView: View {
+struct MovieTicketsView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             Text("tickets".uppercased())
                 .custom(font: .heavy, size: 30)
             
             ZStack(alignment: .top) {
-                ticketBackgroundView()
-                ticketTitlesView()
+                TicketBackgroundView()
+                TicketTitlesView()
                     .offset(y: 6)
-                adultTicketView()
+                AdultTicketView()
                     .offset(y: 45)
                 
                 Rectangle()
@@ -18,7 +18,7 @@ struct movieTicketsView: View {
                     .offset(y: 90)
                     .foregroundColor(Color.baseLineColor)
                 
-                childTicketView()
+                ChildTicketView()
                     .offset(y: 110)
                 
                 Rectangle()
@@ -26,7 +26,7 @@ struct movieTicketsView: View {
                     .offset(y: 154)
                     .foregroundColor(Color.baseLineColor)
                 
-                seniorTicketView()
+                SeniorTicketView()
                     .offset(y: 175)
             }
             
@@ -38,6 +38,6 @@ struct movieTicketsView: View {
 
 struct ticketsView_Previews: PreviewProvider {
     static var previews: some View {
-        movieTicketsView()
+        MovieTicketsView()
     }
 }

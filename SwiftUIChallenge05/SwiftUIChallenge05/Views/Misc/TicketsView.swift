@@ -1,18 +1,18 @@
 import SwiftUI
 
-struct ticketswhtView: View {
+struct TicketsView: View {
     var body: some View {
         
         VStack {
             ScrollView {
                 VStack {
-                    movieImageView()
+                    MovieImageView()
                     
                     VStack {
-                        movieTitleView()
+                        MovieTitleView()
                             .padding(.top, -5)
                         
-                        movieTicketsView()
+                        MovieTicketsView()
                             .padding(.top, 2)
                     }
                     .padding(.horizontal, 10)
@@ -21,13 +21,13 @@ struct ticketswhtView: View {
                 }
             }
             
-            movieSubtotalView()
+            MovieSubtotalView()
         }
     }
 }
 
 struct ticketswhtView_Previews: PreviewProvider {
     static var previews: some View {
-        ticketswhtView()
+        TicketsView()
     }
 }

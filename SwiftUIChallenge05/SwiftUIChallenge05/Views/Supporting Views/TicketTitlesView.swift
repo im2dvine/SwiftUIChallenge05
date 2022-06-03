@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ticketTitlesView: View {
+struct TicketTitlesView: View {
     var body: some View {
         VStack {
             HStack {
@@ -32,6 +32,6 @@ struct ticketTitlesView: View {
 
 struct ticketTitlesView_Previews: PreviewProvider {
     static var previews: some View {
-        ticketTitlesView()
+        TicketTitlesView()
     }
 }
